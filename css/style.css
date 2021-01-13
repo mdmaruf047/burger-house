@@ -1,0 +1,162 @@
+
+  /******
+  global css file
+ 
+ ********/
+ @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+     /*font-family: 'Alfa Slab One', cursive;
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+*{*/
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+/********
+header section csss
+***********/
+.header{
+	width: 100%;
+	background-image: url(../img/burger.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0px;
+}
+.logo{
+}
+.menu{
+}
+.menu-contact{
+	text-align: right;
+	margin-bottom: 20px;
+}
+.menu-contact img{
+    vertical-align: middle;
+
+}
+.menu-contact span{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	font-weight: bold;
+	margin-left: 20px;
+	vertical-align: middle;
+
+}
+.menu-list ul li{
+	list-style: none;
+	display: inline-block;
+	font-family: 'Bebas Neue', cursive;
+	text-align: right;
+	margin-left: 32px;
+}
+.menu-list ul li a{
+	font-size: 20px;
+	color: #3d2514;
+	letter-spacing: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.banner p{
+	font-family: 'Bebus Neue',cursive;
+	color: #3d2514;
+	border: 2px dashed #3d2514;
+	padding: 7px 7px;
+	display: inline;
+
+}
+.banner h1{
+	font-family: 'Alfa Slab one'cursive;
+	color: #3d2514;
+	font-size: 84px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px #fff;
+
+}
+.banner h2{
+	font-family: 'Alfa Slab one'cursive;
+	color: #3d2514;
+	font-size: 56px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #fff;
+
+}
+/********category section****/
+
+.burger-category{
+	width: 100%;
+	padding: 50px 0px;
+}
+.category{
+	display: flex;
+}
+.category .left: {
+	margin-right: 15px;
+	position: relative;
+}
+.img-bottom,.img-top{
+	position: relative;
+}
+.img-bottom.img-desc{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.img-top.img-desc{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+.category .right: {
+	margin-left: 15px;
+}
+
+.img-top{
+	margin-bottom: 30px;
+}
+.img-dec h3{
+	font-family: 'Bebus Neue',cursive;
+	color:  #fff;
+	text-transform: uppercase;
+	font-size: 25px;
+
+}
+.img-dec h1{
+	font-family: 'Bebus Neue',cursive;
+	color:  #fff;
+	text-transform:
+	font-size:42px; 
+	letter-spacing: 3px;
+
+}
+.button-testy{
+	width: 100%;
+	margin-top: 70px;
+}
+.menu-contact{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
